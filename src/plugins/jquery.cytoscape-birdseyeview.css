@@ -1,0 +1,23 @@
+@charset "utf-8";
+.cytoscape-birdseyeView{
+  position: absolute;
+  background: #ccc;
+  border: 2px solid #9E9E9E;
+  border-radius: 10px;
+  z-index: 99999;
+}
+.cytoscape-birdseyeviewView{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #BEBEBE;
+  border-radius: 10px;
+  cursor: move;
+}
+.cytoscape-birdseyeviewMniature{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+}
