@@ -134,6 +134,8 @@ $(function(){
 		
 		$container.cytoscapePanzoom();
 		
+		$container.cytoscapeBirdsEyeView();
+		
 		$container.cytoscapeEdgehandles({
 			lineType: "straight",
 			preview: true,
@@ -251,6 +253,19 @@ $(function(){
 				       console.log("%o", node);
 				   });
 				}
+				}).cy(function () {
+					$container2.cytoscapeBirdsEyeView({
+					container: "#cytoscape2BirdsEyeView",
+					forceClassName: false,
+					position: {
+						horizontal: 600,
+						vertical: 0,
+					},
+					size: {
+						height: 300
+					},
+					live: false
+				});
 			});
 
 		
